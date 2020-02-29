@@ -1,14 +1,12 @@
 name: example-environment
 channels:
-    - conda-forge
+  - conda-forge
 dependencies:
-    - python>=3.5
-    - anaconda
-    - pip
-    - librosa
-    - numpy
-    - pandas
-    - sklearn
-    - matplotlib
-
-
+  - python>=3.5
+  - anaconda
+  - pip
+  - librosa
+  - numpy
+  - pandas
+  - sklearn
+  - matplotlib
