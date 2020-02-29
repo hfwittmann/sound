@@ -16,12 +16,10 @@ dependencies:
     - python>=3.5
     - anaconda
     - pip
-    - pip:
-        # works for regular pip packages
-        - librosa
-        - numpy
-        - pandas
-        - sklearn
-        - matplotlib
+    - librosa
+    - numpy
+    - pandas
+    - sklearn
+    - matplotlib
 
 
