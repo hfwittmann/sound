@@ -1,0 +1,27 @@
+# run: conda env create --file environment.yml
+name: test-env
+dependencies:
+- python>=3.5
+- anaconda
+- pip
+- pip:
+  # works for regular pip packages
+  - docx
+  - gooey
+
+name: example-environment
+channels:
+    - conda-forge
+dependencies:
+    - python>=3.5
+    - anaconda
+    - pip
+    - pip:
+        # works for regular pip packages
+        - librosa
+        - numpy
+        - pandas
+        - sklearn
+        - matplotlib
+
+
