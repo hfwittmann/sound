@@ -8,5 +8,5 @@ dependencies:
   - librosa
   - numpy
   - pandas
-  - sklearn
+  - scikit-learn
   - matplotlib
