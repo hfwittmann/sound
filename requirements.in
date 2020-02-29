@@ -3,3 +3,9 @@ numpy
 pandas
 sklearn
 matplotlib
+pip-tools
+numba
+
+yapf
+autopep8
+pylint
